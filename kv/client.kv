@@ -1,0 +1,25 @@
+<ClientContainer>:
+    mainview: mainview
+    rows: 1
+	clients : clients
+
+    BoxLayout:
+        orientation: "vertical"
+
+        Label:
+            id: mainview
+            font_size: dp(50)
+            text: 'Actual Cue'
+            size_hint_y: 10
+
+        Label:
+            id: mainview
+            font_size: dp(40)
+            text: 'Next Cue'
+            size_hint_y: 10
+
+
+        BoxLayout:
+            orientation: "horizontal"
+            size_hint_y: 40
+            id: clients
